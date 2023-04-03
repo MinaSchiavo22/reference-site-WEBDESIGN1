@@ -1,0 +1,43 @@
+body{
+    font-family: "Vesper Libre";
+    color: #1a1a1a;
+    line-height: 1.5;
+    font-size: 1.125rem;
+    background-color: skyblue;
+}
+
+img{
+    width: 100%;
+    }
+    
+    h1 {
+        font-size: 2rem;
+        font-weight: bold;
+        font-style: italic;
+        margin: 1rem 0;
+    }
+
+main {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+div {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 90px;
+    padding-right: 40px;
+}
+    p.text-decorations {
+        text-transform: uppercase;
+        text-decoration: line-through;
+        text-align: center;
+        text-indent: 1em;
+        margin: 10rem;
+    }
+
+
+a.one:visited {text-decoration:line-through}
+a.one:hover {text-transform: uppercase;}
+a.one:focus {text-shadow: 2px 2px #ff0000;}
